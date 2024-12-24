@@ -1,0 +1,509 @@
+.box {
+  max-width: 1280px;
+  margin: 50px;
+  height: auto;
+}
+
+.box1 {
+  width: 1050px;
+  display: flex;
+  height: 700px;
+}
+
+.box1-1 {
+  width: 400px;
+  padding: 40px;
+  background-color: #444242;
+  color: white;
+  flex-direction: column;
+  display: flex;
+}
+
+.title-section {
+  justify-content: start;
+  padding: 10px;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: bold;
+  flex-direction: row-reverse;
+}
+
+.menu-section {
+  margin: 10px;
+  display: flex;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.sub {
+  color: #8e8a8a;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.imgage1-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1-1 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.imgage1-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1-2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+.imgage1-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1-3 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+.imgage1-4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1-4 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.box1-2 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.boxtop {
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  padding: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxbottom {
+  width: 600px;
+  height: 300px;
+  background-color: bisque;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price2 {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.img1-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1-left {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.img1-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img1 {
+  flex-direction: column;
+}
+
+.img1-right {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img1-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img1-2-right {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.img1-2-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img1-3-right {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.img1-3-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sub2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img2 {
+  display: flex;
+}
+.img2-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img2-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img2-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img2-2 img {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.box2 {
+  background-color: seashell;
+  height: 800px;
+  width: 1050px;
+}
+.boxleft {
+  width: 600px;
+  padding: 40px;
+
+  flex-direction: column;
+  display: flex;
+}
+.lunch-title {
+  width: 250px;
+  height: 30px;
+  background-color: #444242;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.lunch-menu {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.lunch-menu1 {
+  width: 500px;
+  height: 800px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.soup1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.soupbox1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soup1-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.soup1-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.soup1-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup1-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.soup1-3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup1-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.soup2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soupbox2 {
+  display: flex;
+}
+
+.soup2-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup2-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.soup3 {
+  justify-content: space-between;
+}
+
+.soupbox3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soup3-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup3-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.soup3-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup3-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.soup3-3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup3-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boxright {
+  width: 600px;
+  padding: 40px;
+
+  flex-direction: column;
+  display: flex;
+}
+
+.lunch-menu2 {
+}
+
+.soup4 {
+}
+
+.soupbox4 {
+  display: flex;
+}
+
+.soup4-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.soup4-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.soup4-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup4-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.soup4-3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.soup4-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lunch-menu3 {
+  width: 300px;
+}
+
+.shackfood1 {
+  width: 200px;
+}
+
+.subtitle1 {
+  display: flex;
+  font-size: 15px;
+}
+
+.price3 {
+  display: flex;
+  font-size: 17px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.snackfood2 {
+  width: 200px;
+}

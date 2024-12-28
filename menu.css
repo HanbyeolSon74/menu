@@ -33,6 +33,7 @@
 .menu-section {
   margin: 10px;
   display: flex;
+  flex-direction: column;
 }
 
 .menu-item {
@@ -235,6 +236,11 @@
   flex-direction: column;
 }
 
+.sub3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .img2 {
   display: flex;
 }
@@ -265,16 +271,36 @@
 }
 
 .box2 {
-  background-color: seashell;
-  height: 800px;
-  width: 1050px;
-}
-.boxleft {
-  width: 600px;
-  padding: 40px;
-
-  flex-direction: column;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+  background-color: seashell;
+  padding: 20px;
+}
+
+.boxleft,
+.boxright {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-section2 {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.lunch-menu {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
 }
 .lunch-title {
   width: 250px;
@@ -284,11 +310,6 @@
   font-size: 20px;
   text-align: center;
   padding: 15px;
-}
-
-.lunch-menu {
-  font-size: 20px;
-  text-decoration: underline;
 }
 
 .lunch-menu1 {
@@ -305,205 +326,186 @@
   justify-content: space-between;
 }
 
-.soupbox1 {
-  display: flex;
-  justify-content: space-between;
+.soup1,
+.soup3,
+.snackfood1,
+.snackfood2 {
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-.soup1-1 {
+.soupbox1,
+.soupbox3,
+.soupbox4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.soup1-1 img,
+.soup3-1 img,
+.soup4-1 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  object-fit: cover;
+  margin-bottom: 5px;
 }
 
-.soup1-1 img {
-  width: 100%;
-  height: 100%;
+.soup1-1,
+.soup1-2,
+.soup1-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
+}
+
+.soup1-1 img,
+.soup1-2 img,
+.soup1-3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
 .subtitle {
-  font-size: 20px;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-.soup1-2 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup1-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.soup1-3 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup1-3 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.price2 {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
 }
 
 .soup2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
 .soupbox2 {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .soup2-1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
 .soup2-1 img {
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.subtitle2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .soup3 {
   justify-content: space-between;
 }
 
-.soupbox3 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.soup3-1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup3-1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.soup3-2 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup3-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+.soup3-1,
+.soup3-2,
 .soup3-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
+}
+
+.soup3-1 img,
+.soup3-2 img,
+.soup3-3 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup3-3 img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-}
-
-.boxright {
-  width: 600px;
-  padding: 40px;
-
-  flex-direction: column;
-  display: flex;
-}
-
-.lunch-menu2 {
 }
 
 .soup4 {
+  justify-content: space-between;
 }
 
-.soupbox4 {
+.soup4-1,
+.soup4-2,
+.soup4-3 {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
 }
 
-.soup4-1 {
+.soup4-1 img,
+.soup4-2 img,
+.soup4-3 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.soup4-1 img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 .subtitle {
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.soup4-2 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
+.menu-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.soup4-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.soup4-3 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.soup4-3 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.lunch-menu3 {
-  width: 300px;
-}
-
-.shackfood1 {
-  width: 200px;
+.snackfood1,
+.snackfood2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 15px;
 }
 
 .subtitle1 {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 15px;
+
+  padding-bottom: 5px;
 }
 
 .price3 {
-  display: flex;
   font-size: 17px;
   font-weight: bold;
-  justify-content: space-between;
-}
-
-.snackfood2 {
-  width: 200px;
+  color: #333;
 }
